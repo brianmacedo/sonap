@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+.container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo-social {
+    background-color: #080324;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 35px;
+    z-index: 50;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.0em;
+}
+.conteudo-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 0.5em;
+}
+header {
+    z-index: 1;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    top: 35px;
+}
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo {
+    height: 140px;
+}
+.menu-header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+}
+.botao {
+    background-color: #A259F7;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5em !important;
+    border: solid 1px #080324;
+    border-radius: 40px 10px;
+}
+.botao:hover {
+    font-size: 1.6em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #0000007A;
+}
+.menu-barras {
+    display: none;
+}
+.banner {
+    background-image: url(../img/banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.conteudo-banner {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+h1 {
+    color: white;
+    font-size: 80px;
+}
+.sobre-nos {
+    background-color: #080324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sobre-nos h2 {
+    color: #A259F7;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+.imagem-sobre {
+    width: 40%;
+}
+.texto-sobre {
+    width: 50%;
+}
+.texto-historia {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.texto-sobre p {
+    color: #198a1f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.endereco {
+    padding: 40px 0;
+    background-color: #080324;
+}
+.conteudo-endereco {
+    margin: 0 auto;
+    max-width: 850px;
+    position: relative;
+}
+.conteudo-endereco h2 {
+    color: #A259F7;
+    font-size: 50px;
+    font-weight: 500;
+}
+.texto-endereco {
+    color: #198a1f;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010010;
+    border: solid 2px #A259F7;
+    padding: 55px 55px;
+}
+.texto-endereco p {
+    width: 100%;
+    font-size: 20px;
+
+}
+.container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+}
+.mapa-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+footer {
+    height: 80px;
+    background-color: black;
+    color: #A259F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    text-align: center;
+}
