@@ -86,7 +86,7 @@ header {
     display: none;
 }
 .banner {
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner\ 2.0.jpeg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,16 +97,19 @@ header {
     align-items: flex-end;
     height: 100%;
 }
+/*  
 .texto-banner {
     display: flex;
     flex-direction: column;
     height: 60%;
     justify-content: space-around;
 }
+
 h1 {
     color: white;
     font-size: 80px;
 }
+*/
 .sobre-nos {
     background-color: #080324;
     padding-top: 40px;
